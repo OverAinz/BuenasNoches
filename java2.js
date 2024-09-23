@@ -2,7 +2,7 @@ var now = new Date();
 var hours = now.getHours();
 
 const   h1 = document.querySelector(".message"),
-        texto = "Estas bien rica amor!!! &#128525;";
+        texto = "Estas bien rica amor!!!";
 
 const   h2 = document.querySelector(".message2")
 
