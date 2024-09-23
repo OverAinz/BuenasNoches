@@ -1,8 +1,32 @@
+var now = new Date();
+var hours = now.getHours();
+
 const   h1 = document.querySelector(".message"),
         texto = "Gracias por escojerme amor!!!";
 
-const   h2 = document.querySelector(".message2"),
-        texto2 = "Que tengas linda noche Brenda";
+const   h2 = document.querySelector(".message2")
+
+var saludo = "Que tengas linda noche"
+
+if (hours > 6 ) {
+    saludo = "Que tengas lindo dia"
+}
+
+if  (hours > 13) {
+    saludo = "Que tengas lindo tarde"
+}
+
+if (hours > 20 ) {
+    saludo = "Ya es tarde... ya cenaste"
+}
+
+
+if (hours > 22 ) {
+    saludo = "Que descanses"
+}
+
+var     texto2 = saludo + " Brenda";
+
 
 function efectTextTyping(elemento,texto, i=0) {
     elemento.textContent += texto[i];
@@ -16,3 +40,5 @@ function efectTextTyping(elemento,texto, i=0) {
 
 efectTextTyping(h1,texto);
 setTimeout(() => efectTextTyping(h2,texto2),5000);
+
+console.log(hours)
