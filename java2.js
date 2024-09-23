@@ -2,27 +2,27 @@ var now = new Date();
 var hours = now.getHours();
 
 const   h1 = document.querySelector(".message"),
-        texto = "Gracias por escogerme amor!!!";
+        texto = "Estas bien rica amor!!! &#128525;";
 
 const   h2 = document.querySelector(".message2")
 
 var saludo = "Que tengas linda noche"
 
 if (hours > 6 ) {
-    saludo = "Que tengas lindo dia"
+    saludo = "Que tengas lindo dia :)"
 }
 
 if  (hours > 13) {
-    saludo = "Hola amor linda tarde, ya comiste"
+    saludo = "Como va tu dia, ya comiste?"
 }
 
 if (hours > 20 ) {
-    saludo = "Ya es tarde... como estuvo tu da"
+    saludo = "Ya es tarde... como estuvo tu dia?"
 }
 
 
 if (hours > 22 ) {
-    saludo = "Que descanses"
+    saludo = "Que descanses... me siento coqueto por si te interesa... ;)"
 }
 
 var     texto2 = saludo + " Brenda";
