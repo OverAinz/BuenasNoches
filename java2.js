@@ -2,7 +2,7 @@ var now = new Date();
 var hours = now.getHours();
 
 const   h1 = document.querySelector(".message"),
-        texto = "Estas bien rica amor!!!";
+        texto = "Estas bien rica amor, me encantas Brenda <3!!!";
 
 const   h2 = document.querySelector(".message2")
 
@@ -25,7 +25,7 @@ if (hours > 22 ) {
     saludo = "Que descanses... me siento coqueto por si te interesa... ;)"
 }
 
-var     texto2 = saludo + " Brenda";
+var     texto2 = saludo;
 
 
 function efectTextTyping(elemento,texto, i=0) {
