@@ -2,7 +2,7 @@ var now = new Date();
 var hours = now.getHours();
 
 const   h1 = document.querySelector(".message"),
-        texto = "Gracias por escojerme amor!!!";
+        texto = "Gracias por escogerme amor!!!";
 
 const   h2 = document.querySelector(".message2")
 
@@ -13,11 +13,11 @@ if (hours > 6 ) {
 }
 
 if  (hours > 13) {
-    saludo = "Que tengas lindo tarde"
+    saludo = "Hola amor linda tarde, ya comiste"
 }
 
 if (hours > 20 ) {
-    saludo = "Ya es tarde... ya cenaste"
+    saludo = "Ya es tarde... como estuvo tu da"
 }
 
 
